@@ -65,25 +65,17 @@ A sophisticated personal portfolio website for a creative professional, built wi
 
 ---
 
-## 📸 Visual Preview
+## 📸 Hero Section (Live Deployment) — **Visual Proof: This is "Jenny Scott" Template**
 
-### Live Deployment Screenshot
-![Jane Portfolio - Full Page](jane-portfolio-screenshot.png)
-*Complete live deployment showing: Hero with split-word headline & portrait fade, Marquee, Services notched cards, Projects with chamfered images, About split layout, Journey timeline, Testimonials carousel, Blogs grid, Footer with giant text-stroke headline*
+![Jane Portfolio - Hero](jane-portfolio-hero.png)
+*Hero: Full-screen (100svh), split-word headline "I'm Jenny Scott" with spark accent, portrait frame with radial gradient fade, "Award-Winning Product Designer" badge, rotating roles (Product Designer / UI/UX Designer / Design Storyteller / Prototype Maker), CTA buttons "Portfolio" & "Hire Me", Hire Badge animation*
 
-### Key UI Sections (from live deployment)
+**⚠️ Note:** This is a **"Jenny Scott" template project** — the code explicitly uses "Jenny Scott" throughout:
+- `Hero.tsx:225` — `<span className="text-brand">Jenny Scott</span>`
+- `Navbar.tsx:49-51` — `aria-label="Jenny — home"` and `<span>Jenny.</span>`
+- Page title: "Jenny Scott — Product Designer"
 
-| Section | Features |
-|---------|----------|
-| **Hero** | Full-screen (100svh), split-word headline reveal (per-word stagger), portrait frame with radial gradient fade, scroll indicator, dark/light toggle in navbar |
-| **Marquee** | Infinite horizontal scroller with pause-on-hover, "Jane Ebai · Creative Designer · UI/UX · Brand Identity · Motion Design · Jane Ebai · Creative Designer..." |
-| **Services** | CSS Grid of notched clip-path cards (polygon shape), icons with hover lift, staggered scroll reveals (up/left/right/zoom) |
-| **Projects** | Chamfered image frames (clip-path polygon), category tags, hover overlays with links, project thumbnails |
-| **About** | Split layout: left chamfered portrait, right bio text + skill tags, split-word headline reveal |
-| **Journey** | Vertical timeline with alternating left/right cards, dates, connectors, company/role, descriptions |
-| **Testimonials** | Carousel with client avatars, quotes, role/company badges, navigation dots, auto-advance |
-| **Blogs** | Article cards with dates, categories, read-time, hover lift, featured images |
-| **Footer** | Giant "Jane Ebai" text-stroke headline, newsletter signup, social links, copyright, grain texture overlay |
+To use as your personal portfolio, replace "Jenny Scott" with your name and update all content.
 
 ---
 
