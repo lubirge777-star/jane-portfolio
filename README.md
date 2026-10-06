@@ -67,33 +67,23 @@ A sophisticated personal portfolio website for a creative professional, built wi
 
 ## 📸 Visual Preview
 
-### Hero Section
-![Hero](public/images/hero.png)
-*Full-screen hero with split-word headline reveal, portrait frame with gradient fade, and scroll indicator*
+### Live Deployment Screenshot
+![Jane Portfolio - Full Page](jane-portfolio-screenshot.png)
+*Complete live deployment showing: Hero with split-word headline & portrait fade, Marquee, Services notched cards, Projects with chamfered images, About split layout, Journey timeline, Testimonials carousel, Blogs grid, Footer with giant text-stroke headline*
 
-### Services
-![Services](public/images/project-1.jpg)
-*Grid of notched service cards with icons, hover lift, and staggered reveal*
+### Key UI Sections (from live deployment)
 
-### Projects
-![Projects](public/images/project-2.jpg)
-*Project showcase with chamfered images, category tags, and hover overlays*
-
-### About
-![About](public/images/about.jpg)
-*Split layout with chamfered portrait, bio text, and skill tags*
-
-### Journey
-![Journey](public/images/project-3.jpg)
-*Vertical timeline with alternating cards, dates, and connectors*
-
-### Testimonials
-![Testimonials](public/images/project-4.jpg)
-*Carousel with client avatars, quotes, and role badges*
-
-### Blogs
-![Blogs](public/images/project-1.jpg)
-*Article cards with dates, categories, and read-time estimates*
+| Section | Features |
+|---------|----------|
+| **Hero** | Full-screen (100svh), split-word headline reveal (per-word stagger), portrait frame with radial gradient fade, scroll indicator, dark/light toggle in navbar |
+| **Marquee** | Infinite horizontal scroller with pause-on-hover, "Jane Ebai · Creative Designer · UI/UX · Brand Identity · Motion Design · Jane Ebai · Creative Designer..." |
+| **Services** | CSS Grid of notched clip-path cards (polygon shape), icons with hover lift, staggered scroll reveals (up/left/right/zoom) |
+| **Projects** | Chamfered image frames (clip-path polygon), category tags, hover overlays with links, project thumbnails |
+| **About** | Split layout: left chamfered portrait, right bio text + skill tags, split-word headline reveal |
+| **Journey** | Vertical timeline with alternating left/right cards, dates, connectors, company/role, descriptions |
+| **Testimonials** | Carousel with client avatars, quotes, role/company badges, navigation dots, auto-advance |
+| **Blogs** | Article cards with dates, categories, read-time, hover lift, featured images |
+| **Footer** | Giant "Jane Ebai" text-stroke headline, newsletter signup, social links, copyright, grain texture overlay |
 
 ---
 
